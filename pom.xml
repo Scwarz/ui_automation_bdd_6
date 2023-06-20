@@ -15,7 +15,7 @@
     </properties>
 
     <dependencies>
-        <!--Later, we will get all the dependencies required for automation here-->
+
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -44,6 +44,9 @@
             <version>7.11.1</version>
             <scope>test</scope>
         </dependency>
+
+
+
     </dependencies>
 
     <!--surefire plugin to execute cucumber tags will be added-->
@@ -62,4 +65,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
